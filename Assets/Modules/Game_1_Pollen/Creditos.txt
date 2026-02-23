@@ -1,0 +1,33 @@
+Créditos
+Proyecto Pollen: Herramienta de realidad virtual para el entrenamiento de funciones ejecutivas en adultos trabajadores.
+Diseño y desarrollo:
+Hazan Pérez Cardona
+Bajo la dirección y guía de:
+William Daniel Moscoso Barrera
+Luis Alfredo Paipa Galeano
+
+Desarrollado como trabajo de grado para la Maestría en Diseño y Gestión de Procesos - Énfasis en HCD
+
+Todos los assets, meshes, texturas y materiales tomados de
+Unity Asset Store
+Efectos de sonido
+freesound.org
+Sonido ambiente
+Sci-industrial Ambiance - Brett Gregory
+
+Varios fragmentos de código tomados de
+- Valem - Rig de VR
+- gamedevbeginner.com - Tiempo límite
+- Unity forums - Botones del tutorial
+- Unity forums - Utilidad de color para TextMeshPro
+- Utilidad de creación de archivo CSV
+
+Este software esta licenciado bajo la licencia Apache 2.0, el copyright le pertenece a Hazan Pérez, excepto para aquellas partes de este software que tengan copyright de sus respectivos autores.
+
+Agradecimientos especiales
+Universidad de La Sabana
+GameDev.TV
+Diana Nieto
+A mi familia que me apoya en todo
+
+Lista de Assets y autores

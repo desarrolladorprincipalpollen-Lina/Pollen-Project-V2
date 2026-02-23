@@ -1,0 +1,78 @@
+Pickable Name,Pickable color,Container name,Container color,Correct pickable,Correct container,Level,Time stamp
+llave de tubos,amarilla,canasta,verde,True,True,0,21/05/2021 2:03:20 a. m.
+destornillador de pala,blanco,caneca,blanca,True,True,1,21/05/2021 2:03:29 a. m.
+serrucho,marron,caja,roja,True,True,1,21/05/2021 2:03:44 a. m.
+llave,azul,canasta,roja,True,True,1,21/05/2021 2:03:55 a. m.
+llave,azul,canasta,negra,True,True,2,21/05/2021 2:04:08 a. m.
+llaves bristol,azul,canasta,marrón,True,True,2,21/05/2021 2:04:22 a. m.
+taladro,verde,canasta,marrón,True,True,2,21/05/2021 2:04:33 a. m.
+llave,gris,canasta,marrón,True,True,2,21/05/2021 2:04:49 a. m.
+alicate,negro,caneca,roja,True,True,0,8/07/2021 8:21:25 p. m.
+taladro,azul,caneca,roja,True,True,1,8/07/2021 8:21:35 p. m.
+hacha,marron,caja,roja,True,True,1,8/07/2021 8:22:14 p. m.
+hacha,marron,caneca,azul,True,True,1,8/07/2021 8:22:23 p. m.
+llaves bristol,verde,caneca,azul,True,True,2,8/07/2021 8:22:31 p. m.
+alicate,azul,caja,azul,True,True,2,8/07/2021 8:22:46 p. m.
+serrucho,negro,canasta,verde,True,True,2,8/07/2021 8:22:58 p. m.
+taladro,verde,canasta,azul,True,False,2,8/07/2021 8:23:05 p. m.
+martillo,negro,canasta,azul,True,True,2,8/07/2021 8:23:17 p. m.
+serrucho,negro,canasta,azul,True,True,2,8/07/2021 8:23:27 p. m.
+alicate,azul,canasta,verde,True,True,0,8/07/2021 8:27:09 p. m.
+serrucho,amarillo,canasta,verde,True,True,1,8/07/2021 8:27:18 p. m.
+serrucho,marron,canasta,amarilla,True,True,1,8/07/2021 8:27:35 p. m.
+llave,azul,caneca,verde,True,True,1,8/07/2021 8:27:42 p. m.
+llaves bristol,verde,canasta,amarilla,True,True,2,8/07/2021 8:27:50 p. m.
+llaves bristol,verde,canasta,amarilla,True,True,2,8/07/2021 8:28:05 p. m.
+destornillador de estrella,verde,caneca,roja,True,True,2,8/07/2021 8:28:16 p. m.
+llaves bristol,verde,canasta,negra,True,True,2,8/07/2021 8:28:25 p. m.
+llaves bristol,verde,canasta,amarilla,True,True,2,8/07/2021 8:28:33 p. m.
+hacha,amarilla,canasta,negra,True,True,3,8/07/2021 8:28:43 p. m.
+serrucho,azul,caneca,negra,True,True,3,8/07/2021 8:28:58 p. m.
+llave de tubos,verde,caja,negra,True,True,3,8/07/2021 8:29:09 p. m.
+serrucho,verde,caneca,negra,True,True,3,8/07/2021 8:29:17 p. m.
+llaves bristol,verde,caneca,negra,True,False,3,8/07/2021 8:29:25 p. m.
+taladro,rojo,caja,negra,True,True,3,8/07/2021 8:29:37 p. m.
+llave,amarilla,caneca,negra,True,True,3,8/07/2021 8:29:47 p. m.
+serrucho,verde,caja,negra,True,True,4,8/07/2021 8:29:56 p. m.
+martillo,verde,canasta,verde,True,True,4,8/07/2021 8:30:06 p. m.
+hacha,amarilla,canasta,verde,True,True,4,8/07/2021 8:30:18 p. m.
+martillo,verde,caja,marrón,True,True,4,8/07/2021 8:30:24 p. m.
+taladro,azul,canasta,roja,True,True,4,8/07/2021 8:30:33 p. m.
+hacha,verde,canasta,verde,True,True,4,8/07/2021 8:30:43 p. m.
+martillo,marron,caja,marrón,True,True,4,8/07/2021 8:30:53 p. m.
+martillo,marron,canasta,roja,True,True,4,8/07/2021 8:31:04 p. m.
+martillo,marron,canasta,verde,True,True,5,8/07/2021 8:31:11 p. m.
+llave de tubos,verde,canasta,amarilla,True,True,5,8/07/2021 8:31:24 p. m.
+hacha,azul,canasta,negra,False,True,5,8/07/2021 8:31:38 p. m.
+destornillador de pala,azul,canasta,negra,True,True,5,8/07/2021 8:31:50 p. m.
+hacha,verde,canasta,amarilla,True,True,5,8/07/2021 8:32:01 p. m.
+serrucho,azul,canasta,negra,True,True,5,8/07/2021 8:32:12 p. m.
+serrucho,azul,canasta,amarilla,True,True,5,8/07/2021 8:32:22 p. m.
+destornillador de pala,azul,canasta,verde,True,True,5,8/07/2021 8:32:30 p. m.
+destornillador de pala,blanco,canasta,verde,True,True,5,8/07/2021 8:32:42 p. m.
+destornillador de estrella,violeta,canasta,verde,True,True,5,8/07/2021 8:32:52 p. m.
+llave de tubos,negra,canasta,azul,True,True,0,8/07/2021 8:49:46 p. m.
+llave,gris,canasta,marrón,True,True,1,8/07/2021 8:49:54 p. m.
+llave de tubos,morada,caja,amarilla,True,True,1,8/07/2021 8:50:03 p. m.
+llave de tubos,morada,caja,amarilla,True,True,1,8/07/2021 8:50:11 p. m.
+hacha,amarilla,canasta,azul,True,True,2,8/07/2021 8:50:19 p. m.
+llave de tubos,verde,canasta,amarilla,True,True,2,8/07/2021 8:50:28 p. m.
+alicate,verde,canasta,amarilla,True,True,2,8/07/2021 8:50:37 p. m.
+llave de tubos,amarilla,canasta,amarilla,True,True,2,8/07/2021 8:50:44 p. m.
+llave de tubos,morada,canasta,amarilla,True,True,2,8/07/2021 8:50:53 p. m.
+alicate,verde,canasta,amarilla,True,True,3,8/07/2021 8:51:02 p. m.
+alicate,verde,canasta,amarilla,True,True,3,8/07/2021 8:51:14 p. m.
+llave,roja,canasta,roja,True,True,3,8/07/2021 8:51:23 p. m.
+llave,roja,canasta,roja,True,True,3,8/07/2021 8:51:33 p. m.
+alicate,rojo,caja,marrón,True,True,3,8/07/2021 8:51:42 p. m.
+llaves bristol,azul,canasta,roja,True,True,3,8/07/2021 8:51:55 p. m.
+llaves bristol,azul,canasta,roja,True,True,4,8/07/2021 8:52:07 p. m.
+llave de tubos,verde,caja,roja,True,True,4,8/07/2021 8:52:17 p. m.
+destornillador de pala,azul,caja,azul,True,False,4,8/07/2021 8:52:26 p. m.
+llaves bristol,verde,caja,roja,True,True,4,8/07/2021 8:52:37 p. m.
+alicate,azul,caja,azul,True,True,4,8/07/2021 8:52:45 p. m.
+destornillador de pala,azul,caja,azul,True,True,4,8/07/2021 8:52:54 p. m.
+taladro,rojo,caja,roja,True,True,4,8/07/2021 8:53:03 p. m.
+taladro,rojo,caja,azul,True,True,4,8/07/2021 8:53:11 p. m.
+alicate,azul,caja,azul,True,True,4,8/07/2021 8:53:23 p. m.
+hacha,negra,canasta,azul,False,True,4,8/07/2021 8:53:34 p. m.
