@@ -27,7 +27,6 @@ namespace PollenModule
         // Update is called once per frame
         void Update()
         {
-
         }
         public void ReLocate(){
             var grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
