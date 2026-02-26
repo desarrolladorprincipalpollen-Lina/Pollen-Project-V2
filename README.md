@@ -25,13 +25,6 @@ El juego utiliza un sistema de **Cambio Lógico** en lugar de recarga de escenas
 
 ### Diagrama de Arquitectura (UML)
 
-```mermaid
-graph TD
-    A[TutorialSequencer] -->|Carga Escena| B[LevelCreator]
-    B --> C[InstructionBuilder]
-    C --> D[Player Interaction]
-    D --> E[ContainerHandler]
-    E -->|Validación| F[Scoreboard]
-    F -->|Progreso| B
-    B -->|Meta Alcanzada| G[LevelTransition]
-    G -->|Reset Lógico| B
+https://miro.com/welcomeonboard/WjFINDNZdklEREN3eHZDWEt3OU1qclVPS0paMUY0c2tmbjlqZzhSb0Qrek9VczdJR21kYzBZL3dxZkp3MmFNQzZvU200amVxMFdBQXVnQmJqc1crNHJaSjZXWnl1NS9WTU93L2hJajAyeklKWkpudm1kaHJ0cXExQnFPODgrQ3VhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=363341240544
+![Pollen Diagramas](https://github.com/user-attachments/assets/7647a6d7-4d48-465c-a7a3-e60e9c000ea7)
+
