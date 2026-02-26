@@ -9,6 +9,7 @@ El proyecto se organiza bajo una arquitectura de módulos:
 * **Assets/Modules/Game_1_Pollen**: Juego de clasificación y lógica de instrucciones.
     * `/Scripts`: Lógica central (LevelCreator, InstructionBuilder, etc.).
     * `/Prefabs`: Objetos interactuables y contenedores.
+* **Assets/Modules/Game_2_Pollen**: En desarrollo
 
 ## 🎮 Game 1: Pollen - Lógica de Juego
 
