@@ -1,31 +1,65 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+
 namespace PollenModule
 {
-    ﻿using UnityEngine;
-
     public class DesktopGrabbable : MonoBehaviour
     {
-        private bool isDragging = false;
-        private float distance;
+        private Transform originalParent;
+        private Rigidbody rb;
+        private bool isGrabbed = false;
+        private Transform holdPoint;
+        private float grabDistance = 2f;
+        private float throwForce = 5f;
 
-        void OnMouseDown()
+        void Start()
         {
-            distance = Vector3.Distance(transform.position, Camera.main.transform.position);
-            isDragging = true;
+            rb = GetComponent<Rigidbody>();
         }
 
-        void OnMouseUp()
+        public void Grab(Transform holder)
         {
-            isDragging = false;
+            if (isGrabbed) return;
+
+            isGrabbed = true;
+            holdPoint = holder;
+            originalParent = transform.parent;
+            
+            // Disable physics while holding
+            if (rb != null)
+            {
+                rb.useGravity = false;
+                rb.isKinematic = true;
+            }
+
+            // Parent to the holder (camera/hand)
+            transform.SetParent(holdPoint);
+            transform.localPosition = Vector3.zero;
+            transform.localRotation = Quaternion.identity;
+        }
+
+        public void Release()
+        {
+            if (!isGrabbed) return;
+
+            isGrabbed = false;
+            transform.SetParent(originalParent);
+
+            // Re-enable physics
+            if (rb != null)
+            {
+                rb.useGravity = true;
+                rb.isKinematic = false;
+                // Add some forward force if needed
+                // rb.AddForce(holdPoint.forward * throwForce, ForceMode.Impulse);
+            }
+            
+            holdPoint = null;
         }
 
         void Update()
         {
-            if (isDragging)
-            {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                Vector3 point = ray.GetPoint(distance);
-                transform.position = point;
-            }
+            // Optional: Add logic here if you want to rotate the object while holding, etc.
         }
     }
 }

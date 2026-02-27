@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\lball\\Desktop\\Pollen_V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BA94B5A-6EB8-9975-C270-04FC7A57C2E8}|Assembly-CSharp.csproj|c:\\users\\lball\\desktop\\pollen_v2\\assets\\modules\\game_1_pollen\\assets\\scripts\\pickablehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BA94B5A-6EB8-9975-C270-04FC7A57C2E8}|Assembly-CSharp.csproj|c:\\users\\lball\\desktop\\pollen_v2\\assets\\modules\\game_1_pollen\\assets\\scripts\\mouseinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA94B5A-6EB8-9975-C270-04FC7A57C2E8}|Assembly-CSharp.csproj|solutionrelative:assets\\modules\\game_1_pollen\\assets\\scripts\\mouseinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA94B5A-6EB8-9975-C270-04FC7A57C2E8}|Assembly-CSharp.csproj|C:\\Users\\lball\\Desktop\\Pollen_V2\\assets\\modules\\game_1_pollen\\assets\\scripts\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA94B5A-6EB8-9975-C270-04FC7A57C2E8}|Assembly-CSharp.csproj|solutionrelative:assets\\modules\\game_1_pollen\\assets\\scripts\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA94B5A-6EB8-9975-C270-04FC7A57C2E8}|Assembly-CSharp.csproj|C:\\Users\\lball\\Desktop\\Pollen_V2\\assets\\modules\\game_1_pollen\\assets\\scripts\\pickablehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BA94B5A-6EB8-9975-C270-04FC7A57C2E8}|Assembly-CSharp.csproj|solutionrelative:assets\\modules\\game_1_pollen\\assets\\scripts\\pickablehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,19 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PickableHandler.cs",
-              "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs",
-              "ToolTip": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs*",
-              "RelativeToolTip": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Title": "MouseInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\MouseInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\MouseInteraction.cs",
+              "ToolTip": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\MouseInteraction.cs",
+              "RelativeToolTip": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\MouseInteraction.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T04:00:40.205Z",
+              "WhenOpened": "2026-02-27T00:51:25.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "XRInteractionManager.cs",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\Interaction\\XRInteractionManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\Interaction\\XRInteractionManager.cs",
@@ -71,11 +79,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\Interaction\\XRInteractionManager.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T03:40:14.223Z"
+              "WhenOpened": "2026-02-25T03:40:14.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "XRUIInputModule.cs",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\UI\\XRUIInputModule.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\UI\\XRUIInputModule.cs",
@@ -83,11 +92,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\UI\\XRUIInputModule.cs",
               "ViewState": "AgIAAKgAAAAAAAAAAAAAAHAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T03:39:05.686Z"
+              "WhenOpened": "2026-02-25T03:39:05.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "XRDirectInteractor.cs",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
@@ -95,11 +105,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@a4485915657e\\Runtime\\Interaction\\Interactors\\XRDirectInteractor.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAASwJAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T03:08:41.068Z"
+              "WhenOpened": "2026-02-25T03:08:41.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Library\\PackageCache\\com.unity.render-pipelines.universal@df81894179af\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@df81894179af\\Shaders\\Lit.shader",
@@ -107,11 +118,40 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@df81894179af\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-02-25T00:59:09.3Z"
+              "WhenOpened": "2026-02-25T00:59:09.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Scoreboard.cs",
+              "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\Scoreboard.cs",
+              "RelativeDocumentMoniker": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\Scoreboard.cs",
+              "ToolTip": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\Scoreboard.cs",
+              "RelativeToolTip": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\Scoreboard.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T04:07:30.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PickableHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs",
+              "ToolTip": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs",
+              "RelativeToolTip": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PickableHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T04:00:40.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PCControllers1.cs",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PCControllers1.cs",
               "RelativeDocumentMoniker": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\PCControllers1.cs",
@@ -123,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EndGame.cs",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\EndGame.cs",
               "RelativeDocumentMoniker": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\EndGame.cs",
@@ -134,12 +174,8 @@
               "WhenOpened": "2026-02-25T02:14:45.714Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "ClassDiagram1.cd",
@@ -150,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ContainerHandler.cs",
               "DocumentMoniker": "C:\\Users\\lball\\Desktop\\Pollen_V2\\Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\ContainerHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Modules\\Game_1_Pollen\\Assets\\Scripts\\ContainerHandler.cs",

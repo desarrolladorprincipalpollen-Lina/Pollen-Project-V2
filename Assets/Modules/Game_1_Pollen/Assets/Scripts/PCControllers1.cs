@@ -110,62 +110,73 @@ public class PCControllers1 : MonoBehaviour
             transform.position += move * speed * Time.deltaTime;
     }
 
+    // Variable para rastrear el objeto actualmente agarrado
+    private PollenModule.DesktopGrabbable currentHeldObject;
+    [Header("Interaction")]
+    public Transform holdPoint; // Asigna un objeto vacío hijo de la cámara aquí
+
     void Interact()
     {
         if (Mouse.current == null) return;
 
-        Transform rayOrigin = cam != null ? cam.transform : transform;
-        Ray ray = new Ray(rayOrigin.position, rayOrigin.forward);
-        RaycastHit hit;
-
         // Click izquierdo — interactuar / agarrar objetos y carteles
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            if (Physics.Raycast(ray, out hit, 100f))
+            if (currentHeldObject != null)
             {
-                Debug.Log("[Click Izquierdo] Tocaste: " + hit.collider.gameObject.name);
+                // Soltar el objeto
+                currentHeldObject.Release();
+                currentHeldObject = null;
+            }
+            else
+            {
+                Transform rayOrigin = cam != null ? cam.transform : transform;
+                Ray ray = new Ray(rayOrigin.position, rayOrigin.forward);
+                RaycastHit hit;
 
-                // Interactuar con carteles (Canvas en el mundo)
-                var canvas = hit.collider.GetComponentInChildren<Canvas>();
-                if (canvas == null)
-                    canvas = hit.collider.GetComponentInParent<Canvas>();
-
-                if (canvas != null)
+                if (Physics.Raycast(ray, out hit, 3f)) // Distancia de agarre de 3 metros
                 {
-                    Debug.Log("Cartel encontrado: " + canvas.gameObject.name);
+                    // 1. Intentar agarrar objeto (DesktopGrabbable)
+                    PollenModule.DesktopGrabbable grabbable = hit.collider.GetComponent<PollenModule.DesktopGrabbable>();
+                    if (grabbable == null) grabbable = hit.collider.GetComponentInParent<PollenModule.DesktopGrabbable>();
 
-                    // Simular click en botones del canvas
-                    var buttons = canvas.GetComponentsInChildren<UnityEngine.UI.Button>();
-                    foreach (var button in buttons)
+                    if (grabbable != null)
                     {
-                        // Verificar si el raycast apunta al botón
-                        RectTransform rect = button.GetComponent<RectTransform>();
-                        if (RectTransformUtility.RectangleContainsScreenPoint(rect, cam.WorldToScreenPoint(hit.point), cam))
+                        if (holdPoint == null)
                         {
-                            button.onClick.Invoke();
-                            Debug.Log("Botón presionado: " + button.gameObject.name);
-                            break;
+                            GameObject hp = new GameObject("HoldPoint");
+                            hp.transform.SetParent(cam.transform);
+                            hp.transform.localPosition = new Vector3(0.5f, -0.5f, 1f);
+                            holdPoint = hp.transform;
+                        }
+
+                        currentHeldObject = grabbable;
+                        currentHeldObject.Grab(holdPoint);
+                        return; // Si agarramos algo, no hacemos nada más
+                    }
+
+                    // 2. Interactuar con UI (Canvas)
+                    var canvas = hit.collider.GetComponentInChildren<Canvas>();
+                    if (canvas == null) canvas = hit.collider.GetComponentInParent<Canvas>();
+
+                    if (canvas != null)
+                    {
+                        var buttons = canvas.GetComponentsInChildren<UnityEngine.UI.Button>();
+                        foreach (var button in buttons)
+                        {
+                            RectTransform rect = button.GetComponent<RectTransform>();
+                            // Proyección simple para world space UI
+                            // Nota: Esto es una aproximación básica. Para UI world space precisa se necesita un GraphicRaycaster.
+                            // Pero para este caso simple, intentamos invocar si el raycast golpea el collider del botón.
+                            if (hit.collider.gameObject == button.gameObject || hit.collider.transform.IsChildOf(button.transform))
+                            {
+                                button.onClick.Invoke();
+                                Debug.Log("Botón presionado: " + button.gameObject.name);
+                                break;
+                            }
                         }
                     }
                 }
-
-                // Interactuar con objetos XR
-                var interactable = hit.collider.GetComponent<XRBaseInteractable>();
-                if (interactable != null)
-                    Debug.Log("Objeto XR interactuable: " + interactable.name);
-            }
-        }
-
-        // Click derecho — agarrar / grip
-        if (Mouse.current.rightButton.wasPressedThisFrame)
-        {
-            if (Physics.Raycast(ray, out hit, 100f))
-            {
-                Debug.Log("[Click Derecho] Agarraste: " + hit.collider.gameObject.name);
-
-                var grabbable = hit.collider.GetComponent<XRGrabInteractable>();
-                if (grabbable != null)
-                    Debug.Log("Objeto agarrable encontrado: " + grabbable.name);
             }
         }
     }

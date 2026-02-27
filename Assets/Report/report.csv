@@ -1,0 +1,81 @@
+Pickable Name,Pickable color,Container name,Container color,Correct pickable,Correct container,Level,Time stamp
+llave de tubos,roja,caneca,negra,False,False,0,27/02/2026 2:44:29
+llave de tubos,roja,caneca,negra,False,True,0,27/02/2026 2:44:33
+llave de tubos,roja,caja,verde,False,False,0,27/02/2026 2:44:36
+llave de tubos,roja,caneca,negra,False,True,0,27/02/2026 2:44:38
+llave de tubos,roja,caja,negra,False,False,0,27/02/2026 2:45:02
+llave de tubos,roja,caja,negra,False,True,0,27/02/2026 2:45:08
+llave de tubos,roja,caja,negra,False,False,0,27/02/2026 2:45:12
+llave de tubos,roja,canasta,marrón,False,True,0,27/02/2026 2:45:16
+llave de tubos,roja,caja,negra,False,True,0,27/02/2026 2:45:17
+alicate,negro,caja,negra,False,True,0,27/02/2026 2:45:21
+alicate,negro,caja,negra,False,False,0,27/02/2026 2:45:26
+alicate,negro,caja,negra,False,True,0,27/02/2026 2:45:30
+alicate,negro,caja,negra,False,False,0,27/02/2026 2:45:35
+alicate,negro,caja,negra,False,True,0,27/02/2026 2:45:40
+alicate,negro,caja,negra,False,False,0,27/02/2026 2:45:48
+llave de tubos,roja,caneca,azul,False,False,0,27/02/2026 2:49:26
+destornillador de pala,amarillo,caja,negra,False,False,0,27/02/2026 2:49:27
+llave de tubos,roja,caneca,azul,False,False,0,27/02/2026 2:49:31
+llave de tubos,roja,canasta,amarilla,False,False,0,27/02/2026 2:49:33
+llave de tubos,roja,caneca,azul,False,True,0,27/02/2026 2:49:35
+llave de tubos,roja,caneca,azul,False,False,0,27/02/2026 2:49:40
+llave de tubos,roja,canasta,amarilla,False,True,0,27/02/2026 2:49:40
+llave de tubos,roja,caneca,azul,False,True,0,27/02/2026 2:49:44
+llave de tubos,roja,canasta,amarilla,False,False,0,27/02/2026 2:49:47
+llave de tubos,roja,caneca,azul,False,True,0,27/02/2026 2:49:50
+llave de tubos,roja,canasta,amarilla,False,True,0,27/02/2026 2:49:52
+llave de tubos,roja,caneca,azul,False,True,0,27/02/2026 2:49:55
+llave de tubos,roja,canasta,amarilla,False,True,0,27/02/2026 2:49:58
+llave de tubos,roja,caneca,azul,False,False,0,27/02/2026 2:49:59
+destornillador de pala,amarillo,caja,negra,False,False,0,27/02/2026 2:50:04
+llave de tubos,roja,caneca,azul,False,False,0,27/02/2026 2:50:05
+llave de tubos,roja,canasta,amarilla,False,True,0,27/02/2026 2:50:07
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:50:36
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:50:41
+llave de tubos,roja,caja,amarilla,False,True,0,27/02/2026 2:50:45
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:50:50
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:50:54
+llave de tubos,roja,caja,amarilla,False,True,0,27/02/2026 2:50:59
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:51:03
+alicate,negro,caja,amarilla,False,False,0,27/02/2026 2:51:07
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:51:11
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:51:17
+alicate,negro,caja,amarilla,False,False,0,27/02/2026 2:51:22
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:51:27
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:51:32
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:51:37
+llave de tubos,roja,caja,amarilla,False,False,0,27/02/2026 2:51:43
+alicate,negro,caja,amarilla,False,True,0,27/02/2026 2:51:49
+llave de tubos,roja,caneca,verde,False,False,0,27/02/2026 2:56:24
+llave de tubos,roja,caneca,verde,False,True,0,27/02/2026 2:56:28
+llave de tubos,roja,caneca,verde,False,False,0,27/02/2026 2:56:33
+llave de tubos,roja,caneca,verde,False,True,0,27/02/2026 2:56:37
+martillo,marron,canasta,negra,False,False,0,27/02/2026 3:03:25
+martillo,marron,caja,verde,False,True,0,27/02/2026 3:03:26
+llave de tubos,azul,canasta,negra,False,True,0,27/02/2026 3:04:16
+llave de tubos,azul,caneca,verde,False,False,0,27/02/2026 3:04:16
+llave de tubos,azul,canasta,azul,False,False,0,27/02/2026 3:04:18
+llave de tubos,verde,canasta,negra,False,True,0,27/02/2026 3:04:27
+llave de tubos,azul,canasta,azul,True,True,0,27/02/2026 3:04:38
+alicate,azul,caja,roja,True,False,0,27/02/2026 3:17:49
+martillo,negro,caja,azul,False,False,0,27/02/2026 3:18:46
+martillo,negro,caja,azul,True,True,0,27/02/2026 3:18:55
+alicate,negro,canasta,roja,True,False,0,27/02/2026 3:19:54
+alicate,amarillo,canasta,roja,False,False,0,27/02/2026 3:20:03
+alicate,amarillo,canasta,roja,True,True,0,27/02/2026 3:20:13
+martillo,azul,canasta,azul,True,True,0,27/02/2026 3:22:02
+martillo,azul,caja,negra,True,False,0,27/02/2026 3:22:02
+alicate,negro,caja,verde,True,True,0,27/02/2026 3:26:51
+martillo,marron,caja,roja,True,True,0,27/02/2026 3:29:01
+taladro,Blanco,canasta,verde,False,True,0,27/02/2026 3:32:34
+serrucho,marron,caneca,blanca,True,False,0,27/02/2026 3:33:51
+llave de tubos,roja,canasta,azul,True,True,0,27/02/2026 3:39:32
+llave de tubos,roja,caneca,roja,True,False,0,27/02/2026 3:39:32
+llave de tubos,roja,canasta,negra,True,False,0,27/02/2026 3:41:10
+alicate,verde,caneca,negra,False,False,0,27/02/2026 3:44:42
+alicate,verde,caneca,azul,False,True,0,27/02/2026 3:44:43
+alicate,negro,canasta,verde,True,False,0,27/02/2026 3:46:56
+alicate,negro,caneca,blanca,True,True,0,27/02/2026 3:46:56
+alicate,negro,canasta,azul,True,False,0,27/02/2026 3:46:56
+alicate,negro,caneca,blanca,True,False,0,27/02/2026 3:46:59
